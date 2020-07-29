@@ -1,4 +1,4 @@
-package com.dchealth.hl7demo.util;
+package com.dchealth.hl7demo.hl7;
 
 import ca.uhn.hl7v2.HL7Exception;
 import ca.uhn.hl7v2.model.AbstractMessage;

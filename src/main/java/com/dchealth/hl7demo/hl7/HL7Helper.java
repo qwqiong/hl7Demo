@@ -1,4 +1,4 @@
-package com.dchealth.hl7demo.util;
+package com.dchealth.hl7demo.hl7;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

@@ -1,4 +1,4 @@
-package com.dchealth.hl7demo.util;
+package com.dchealth.hl7demo.hl7;
 
 import ca.uhn.hl7v2.model.DataTypeException;
 import ca.uhn.hl7v2.model.v24.datatype.CE;
@@ -138,11 +138,8 @@ public class TestHL7 {
 
     public static void main(String[] args) {
         TestHL7 co = new TestHL7();
-
         System.out.println(co.getHL7Text());
-
         String resStr = "MSH|^~\\&|PMI||01||20170719143120||RSP^ZP7|YY00000001|P|2.4|\rMSA|AA|YY00000001|[MsgInfo] Method Type: ZP7 -Success Flag: AA -MSG: success QueryPerson return message success.\rQAK||||0|0|0\rQPD|\rIN1|6|0|8\rQRI|15.014454851245674|3|";
-
         co.hl7Text2Obj(resStr);
     }
 
